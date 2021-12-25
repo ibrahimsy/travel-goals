@@ -1,0 +1,77 @@
+
+#hero{
+    height: 800px;
+    background-image: url('images/places/ocean.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#hero-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    box-shadow: 2px 4px 5px rgb(54, 54, 54);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+#hero-content h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Raleway",sans-serif;
+    margin: 0;
+}
+
+#hero-content p{
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+}
+#hero-content a{
+    font-size: 24px;
+    color: black;
+    background-color: rgb(250, 251, 0);
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-shadow: 2px 4px 10px rgb(7, 7, 6);
+    font-weight: 700;
+}
+#hero-content a:hover{
+    /* color: rgb(250, 251, 0); */
+    background: white;
+    transition: 0.5s ease-in-out;
+}
+#highlights{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background: linear-gradient(0deg,rgb(205, 243, 230),rgb(173, 250, 224));
+}
+#highlights h2{
+    color: rgb(88, 88, 88);
+}
+
+#destinations{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.destination{
+    width: 100%;
+    margin: 0 20px;
+}
+.destination img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgb(68, 67, 67);
+    object-fit: cover;
+}
+.destination strong{
+    font-size: 20px;
+    color: rgb(76, 194, 158);
+}
+
